@@ -51,5 +51,14 @@ public class GUIGIT extends JFrame {
 		});
 		btnNewButton.setBounds(96, 102, 247, 49);
 		contentPane.add(btnNewButton);
+		
+		JButton btnNewButton_1 = new JButton("SALUDO");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null,"Hola, sigo siendo yai pero desde mi rama");
+			}
+		});
+		btnNewButton_1.setBounds(96, 183, 247, 37);
+		contentPane.add(btnNewButton_1);
 	}
 }
